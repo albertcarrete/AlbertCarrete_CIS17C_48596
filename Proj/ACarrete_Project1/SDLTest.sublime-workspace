@@ -1,0 +1,509 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"user",
+				"user"
+			],
+			[
+				"GetFile",
+				"GetFileLength"
+			],
+			[
+				"triangu",
+				"triangularArray"
+			],
+			[
+				"trian",
+				"triangularArray"
+			],
+			[
+				"detection",
+				"detectionRatio"
+			],
+			[
+				"detect",
+				"detectionRatio"
+			],
+			[
+				"set_fil",
+				"set_FileData"
+			],
+			[
+				"set_",
+				"set_FilePath"
+			],
+			[
+				"setTargetFil",
+				"setTargetFilePath"
+			],
+			[
+				"i",
+				"INCLUDE_PATH"
+			],
+			[
+				"shrinkhe",
+				"shrinkHeader2"
+			],
+			[
+				"shri",
+				"shrinkHeader2"
+			],
+			[
+				"BentonSans",
+				"BentonSans-Medium"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/C++/C++.sublime-build",
+	"command_palette":
+	{
+		"height": 169.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"package controll",
+				"Package Control: List Packages"
+			],
+			[
+				"package control",
+				"Package Control: Discover Packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"which gcc",
+			"gcc",
+			"gcc -g main.cpp -o hello.exe",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/SDLTest/SDLTest.sublime-project",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/SDLTest/cli/main.cpp",
+		"/Applications/Qt/5.3/clang_64/mkspecs/qdevice.pri",
+		"/Applications/Qt/5.3/clang_64/mkspecs/qconfig.pri",
+		"/Users/albertcarrete/Qt/5.3/clang_64/mkspecs/qdevice.pri",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/cli/main.cpp",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/include/Recursion/Trig.cpp",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/include/StatClass2/StatClass2.h",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/include/StatClass2/statClass2.cpp",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/include/StatClass/statClass.h",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/include/StatClass/statClass.cpp",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/include/Recursion/Trig.h",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/makefile",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/include/Recursion/RTan.h",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/include/SimpleVector/SimpleVector.cpp",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/include/SimpleVector/SimpleVector.h",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/include/Recursion/RTan.cpp",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/include/StatClass2",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/include/LinkedList/LinkedList.h",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/include/helloworld/hello.cpp",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/include/helloworld/hello.h",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Midterm/include/Recursion/RecursiveTangent",
+		"/Users/albertcarrete/Documents/STProjects/SampleProject/Makefile",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Recursion/cli/main.cpp",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Recursion/makefile",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter10/controllers/api/posts.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter10/pubsub.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter9/server.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter9/ng/posts.ctrl.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter9/boot.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter9/ng/websockets.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter9/pubsub.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter9/controllers/api/posts.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter9/websockets.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/ng/user.svc.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/controllers/api/sessions.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/controllers/static.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/controllers/api/users.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/auth.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/assets/app.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/layouts/app.html",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/ng/routes.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/ng/application.ctrl.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/ng/login.ctrl.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/controllers/api/posts.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/server.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/config.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/ng/ApplicationCtrl",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/models/user.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/templates/login.html",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/gulp/server.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/gulpfile.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/templates/posts.html",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8_REPACK/ng/module.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8/controllers/static.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8/templates/posts.html",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8/gulpfile.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8/layouts/app.html",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8/ng/routes.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8/ng/module.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8/templates/posts1.html",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/InClass_102914/cli/main.cpp",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/HashComparison/HashTest.cpp",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/HashComparison/makefile",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter8/gulp/server.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter7/server.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter7/user.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter7/package.json",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter6/css/app.styl",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter6/ng/posts.svc.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter6/ng/posts.ctrl.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter6/ng/module.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter6/layouts/posts.html",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter6/gulp/server.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter6/gulpfile.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter6/gulp/css.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter6/ng/app.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter6/gulp.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter5/layouts/posts.html",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter5/controllers/static.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter5/controllers/api/posts.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter5/server.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter5/assets/app.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter5/posts.html",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter4/models/post.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter4/db.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter4/server.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter4/package.json",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Chapter4/posts.html",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/Vagrantfile",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/Chapter2/index.html",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/server.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/app.js",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Bootstrap/posts.html",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app/Bootstrap/posts-plainhtml.html",
+		"/Users/albertcarrete/Documents/STProjects/MeanStack/app.js",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter6/README.md",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter6/Vagrantfile",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter8/app/Twitter/package.json",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter8/app/server.js",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter8/app/Twitter/app.js",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter8/app/Twitter/tweet_counter.js",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter8/app/package.json",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter7/app/Twitter/app.js",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Assignment6/Assignment6_doubly/cli/main.cpp",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Assignment6/Assignment6_doubly/include/LinkedList/LinkedList.h",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Assignment6/Assignment6_stack/include/LinkedList/LinkedList.h",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Assignment6/Assignment6_stack/cli/main.cpp",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Assignment6/Assignment6_circularly/include/LnkdLst/LnkdLst.cpp",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Assignment6/Assignment6_circularly/include/LinkedList/LinkedList.h",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Assignment6/Assignment6_circularly/cli/main.cpp",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Assignment6/Assignment6_circularly/include/LnkdLst/LnkdLst.h",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter8/package.json",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter7/app/Amazeriffic/package.json",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter7/app/Twitter/tweet_counter.js",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter7/app/package.json",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter6/app/Amazeriffic/server.js",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter6/app/Twitter/client/index.html",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter6/app/Twitter/tweet_counter.js",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter6/app/Twitter/credentials.json",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter6/app/Amazeriffic/client/javascripts/app.js",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter6/app/Express/server.js",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter6/app/Twitter/client/javascripts/app.js",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter6/app/server.js",
+		"/Users/albertcarrete/Documents/STProjects/WebTutorial/Chapter6/app/Express/node_modules/express/server.js",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Assigment5/Assignment5_p2/makefile",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Assignment5_templated/include/LnkdLst/LnkdLst.cpp",
+		"/Users/albertcarrete/Documents/STProjects/CSC17C/Assignment5_templated/include/LnkdLst/LnkdLst.h"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"Handler.cpp",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"RTan",
+			"statClass22",
+			"statclass",
+			"invalid_argument",
+			"JSO",
+			"Last",
+			"ListElement",
+			"datum",
+			"extract",
+			"perline",
+			"new",
+			"size",
+			"columnArray",
+			"colAry",
+			"fillarray",
+			"triAry",
+			"main",
+			"hero",
+			"hero-container",
+			"hero-bg",
+			".hero-color",
+			".hero",
+			"subtitle",
+			"subtitle p",
+			"learnbutton",
+			"testimonials",
+			"about p",
+			"video",
+			"bigtext",
+			"subtext h3",
+			"max-width",
+			"titles-wrapper",
+			"wrapper",
+			"half",
+			"col-md-5",
+			"brandongro",
+			".hero",
+			"subtitle",
+			"text-wrapper p",
+			"sidekick",
+			"subtitle",
+			"sidekick",
+			"about-hero",
+			"subtitle",
+			"sidekick",
+			"subtitle",
+			"fancybox",
+			"readtoconsole",
+			"specify a .bmp",
+			"specify",
+			"string",
+			"type",
+			"read",
+			"errormessages",
+			"delete",
+			"binaryfile",
+			"hex",
+			"filesize",
+			"BYTE",
+			"functionse",
+			"do_extend",
+			"menu",
+			".contact form",
+			".contact-form",
+			".contact form .submit-field",
+			"one-blogpost",
+			"photos",
+			"modalbox",
+			"submit-field",
+			"modalbox",
+			"one-row",
+			".contact form",
+			"required",
+			"servicemodal",
+			"services",
+			"servicesmodal",
+			"wrapper",
+			"services",
+			"servicemodal",
+			"about",
+			"descrip",
+			"contact",
+			"phone",
+			"nav ul",
+			"subtitle",
+			"container",
+			"intro",
+			"about-hero",
+			"about",
+			"bigbg",
+			"about-hero",
+			"about",
+			"container",
+			"wrapper",
+			".header",
+			".shrink",
+			".line",
+			"sub-hero",
+			"bigbg",
+			"menu_top",
+			"menu+top",
+			"one-block p",
+			".one-block",
+			".one-block p",
+			"sub-hero",
+			"one-block",
+			"sub",
+			"sub-hero",
+			".unit",
+			"expanded",
+			".nav",
+			"expanded",
+			"header",
+			"label",
+			"body",
+			"banner-button",
+			"radius",
+			"estimate",
+			"estimatebutton",
+			"contacter",
+			"round",
+			"contacter",
+			"before",
+			"point",
+			"talk",
+			"l-quarter",
+			"citycompany",
+			"bubble-triangle"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Trig",
+			"statClass2",
+			"Node",
+			"columnArray",
+			"consolemessage",
+			"bmp",
+			".hero-container",
+			"nav"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "SDLTest.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 149.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
