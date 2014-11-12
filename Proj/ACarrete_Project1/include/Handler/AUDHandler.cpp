@@ -35,6 +35,9 @@ bool AUDHandler::MainMenu(){
 			bool valid = true;
 				setTargetFile();
 		}
+		if(choice == '2'){
+			GraphTargetData();
+		}
 		if(choice == '3'){
 			menuExit = false;
 		}
@@ -80,4 +83,8 @@ void AUDHandler::setTargetFile(){
 	}else{
 		consolemessage += "Invalid target file path.";
 	}
+}
+void AUDHandler::GraphTargetData(){
+	ACgraph graph;
+	graph.init(file1);
 }

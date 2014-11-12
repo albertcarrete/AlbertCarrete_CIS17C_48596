@@ -52,3 +52,6 @@ void AUDFile::set_FileSize(long a){
 long AUDFile::get_FileSize(){
 	return filesize;
 }
+void AUDFile::get_TransferData(BYTE array[]){
+
+}

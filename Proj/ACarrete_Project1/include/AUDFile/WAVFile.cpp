@@ -51,58 +51,155 @@ void WAVFile::set_HeaderData(BYTE* hData){
 	    std::cout << std::endl;
 	}
 }
-void WAVFile::get_SGroupID(){
-
+void WAVFile::get_ChunkID(){
 	std::string strem(reinterpret_cast<char*>(headerMap["ChunkID"].datum));
 	std::cout << "ChunkID: ";
-	// for(int i = 0; i < headerMap["ChunkID"].byteSize;i++){
-	// 	std::cout << headerMap["ChunkID"].datum[i];
-	// }
 	std::cout << strem;
 	std::cout << std::endl;
 }
-void WAVFile::get_dwFileLength(){
+void WAVFile::get_ChunkSize(){
 	std::cout << "ChunkSize: ";
-	for(int i = 0; i < headerMap["ChunkSize"].byteSize;i++){
-		std::cout << (int)headerMap["ChunkSize"].datum[i];
-	}
-	std::cout << std::endl;	
-}
-void WAVFile::get_FORMAT(){
-	std::cout << "Format: ";
-	for(int i = 0; i < headerMap["Format"].byteSize;i++){
-		std::cout << headerMap["Format"].datum[i];
-	}
-	std::cout << std::endl;	
-}
-void WAVFile::get_FCHUNK(){
-	std::cout << "SubChunk1ID: ";
-	for(int i = 0; i < headerMap["SubChunk1ID"].byteSize;i++){
-		std::cout << headerMap["SubChunk1ID"].datum[i];
-	}
-	std::cout << std::endl;	
-}
-
-void WAVFile::get_HeaderData(){
-	for(auto outer_iter=headerMap.begin(); outer_iter!=headerMap.end(); ++outer_iter) {
-		std::cout << outer_iter->first << ": ";
-		for(int i = 0; i < outer_iter->second.byteSize;i++){
-			std::cout << (int)outer_iter->second.datum[i];
-		}
-		std::cout << std::endl;			
-	}
-	std::cout << "BYTE rate: ";
-	unsigned int byterate = 0;
+	unsigned int ChunkSize = 0;
 	unsigned int rate = 1;
 
-	for(int i = 0; i < headerMap["ByteRate"].byteSize;i++){
-		byterate += (rate * (int)headerMap["ByteRate"].datum[i]);
+	for(int i = 0; i < headerMap["ChunkSize"].byteSize;i++){
+		ChunkSize += (rate * (int)headerMap["ChunkSize"].datum[i]);
 		rate = rate * 256;
 	}
-	std::cout << std::dec << byterate;
+	std::cout << std::dec << ChunkSize;
 	std::cout << std::endl;	
-	get_SGroupID();
-	// get_dwFileLength();
-	// get_FORMAT();
-	// get_FCHUNK();
+}
+void WAVFile::get_Format(){
+	std::string strem(reinterpret_cast<char*>(headerMap["Format"].datum));
+	std::cout << "Format: ";
+	std::cout << strem;
+	std::cout << std::endl;
+}
+void WAVFile::get_Subchunk1ID(){
+	std::string strem(reinterpret_cast<char*>(headerMap["Subchunk1ID"].datum));
+	std::cout << "Subchunk1ID: ";
+	std::cout << strem;
+	std::cout << std::endl;
+}
+void WAVFile::get_Subchunk1Size(){
+	std::cout << "Subchunk1Size: ";
+	unsigned int Subchunk1Size = 0;
+	unsigned int rate = 1;
+
+	for(int i = 0; i < headerMap["Subchunk1Size"].byteSize;i++){
+		Subchunk1Size += (rate * (int)headerMap["Subchunk1Size"].datum[i]);
+		rate = rate * 256;
+	}
+	std::cout << std::dec << Subchunk1Size;
+	std::cout << std::endl;		
+}
+void WAVFile::get_AudioFormat(){
+	std::cout << "AudioFormat: ";
+	unsigned int AudioFormat = 0;
+	unsigned int rate = 1;
+
+	for(int i = 0; i < headerMap["AudioFormat"].byteSize;i++){
+		AudioFormat += (rate * (int)headerMap["AudioFormat"].datum[i]);
+		rate = rate * 256;
+	}
+	std::cout << std::dec << AudioFormat;
+	std::cout << std::endl;		
+}
+void WAVFile::get_NumChannels(){
+	std::cout << "NumChannels: ";
+	unsigned int NumChannels = 0;
+	unsigned int rate = 1;
+
+	for(int i = 0; i < headerMap["NumChannels"].byteSize;i++){
+		NumChannels += (rate * (int)headerMap["NumChannels"].datum[i]);
+		rate = rate * 256;
+	}
+	std::cout << std::dec << NumChannels;
+	std::cout << std::endl;		
+}
+void WAVFile::get_SampleRate(){
+	std::cout << "SampleRate: ";
+	std::cout << std::dec << endianconversion("SampleRate");
+	std::cout << std::endl;		
+}
+void WAVFile::get_ByteRate(){
+	std::cout << "ByteRate: ";
+	std::cout << std::dec << endianconversion("ByteRate");
+	std::cout << std::endl;		
+}
+void WAVFile::get_BlockAlign(){
+	std::cout << "BlockAlign: ";
+	std::cout << std::dec << endianconversion("BlockAlign");
+	std::cout << std::endl;		
+}
+void WAVFile::get_BitsPerSample(){
+	std::cout << "BitsPerSample: ";
+	std::cout << std::dec << endianconversion("BitsPerSample");
+	std::cout << std::endl;		
+}
+void WAVFile::get_Subchunk2ID(){
+	std::string strem(reinterpret_cast<char*>(headerMap["Subchunk2ID"].datum));
+	std::cout << "Subchunk1ID: ";
+	std::cout << strem;
+	std::cout << std::endl;
+}
+void WAVFile::get_Subchunk2Size(){
+	std::cout << "Subchunk2Size: ";
+	std::cout << std::dec << endianconversion("Subchunk2Size");
+	std::cout << std::endl;		
+}
+void WAVFile::get_HeaderData(){
+	get_ChunkID();
+	get_ChunkSize();
+	get_Format();
+	get_Subchunk1ID();
+	get_Subchunk1Size();
+	get_AudioFormat();
+	get_NumChannels();
+	get_SampleRate();
+	get_ByteRate();
+	get_BlockAlign();
+	get_BitsPerSample();
+	get_Subchunk2ID();
+	get_Subchunk2Size();
+	readDataChunk();
+}
+unsigned int WAVFile::endianconversion(std::string mapname){
+	unsigned int value = 0;
+	unsigned int rate = 1;
+
+	for(int i = 0; i < headerMap[mapname].byteSize;i++){
+		value += (rate * (int)headerMap[mapname].datum[i]);
+		rate = rate * 256;
+	}
+	return value;
+}
+void WAVFile::readDataChunk(){
+	std::cout << "Testing Data Chunk: " << std::endl;
+	std:: cout << "OFF" << "    " <<  "HEX" << "    " << "Int" << "    " << "Int16" << std::endl;
+	// std::string twobyte = "";
+	std::stringstream twobyte;
+	std::string str;
+	int num;
+	int16_t num16;
+
+	/*HOW MUCH DATA*/
+	for(int i = get_HeaderLength(); i < 500; i+=2){
+		std::cout << std::setw(4) << std::setfill('0')<< i << "   ";
+		twobyte << std::hex << std::setw(2) << std::setfill('0') << (int)fileBuffer[i+1] << std::setw(2) << std::setfill('0') << (int)fileBuffer[i];
+		str = twobyte.str();
+		std::cout << twobyte.str() << "   ";
+		twobyte >> num;
+		std::cout << std::setw(5)<< std::setfill(' ') << num <<"    ";
+		num16 = num;
+		std::cout << num16 << std::endl;	
+		wavint16.push_back(num);
+		num = 0;
+		twobyte.str(""); 
+		twobyte.clear();
+	}
+}
+std::vector<int16_t> WAVFile::get_DataChunk(){
+	// vec.swap(wavint16);
+	return wavint16;
 }

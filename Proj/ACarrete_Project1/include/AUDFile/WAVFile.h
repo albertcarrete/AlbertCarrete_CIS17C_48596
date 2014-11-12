@@ -6,7 +6,8 @@
 class WAVFile : public AUDFile{
 
 protected:
-
+	unsigned int endianconversion(std::string);
+	void virtual readDataChunk();
 public:
 	WAVFile();
 	~WAVFile();
@@ -27,12 +28,24 @@ public:
 		unsigned int ByteRate;
 		unsigned int BlockAlign;
 		unsigned int BitsPerSample;
-		std::string Subchuk2ID;
+		std::string Subchunk2ID;
 		unsigned int Subchunk2Size;
 	};
-	void get_SGroupID();
-	void get_dwFileLength();
-	void get_FORMAT();
-	void get_FCHUNK();
+	void get_ChunkID();
+	void get_ChunkSize();
+	void get_Format();
+	void get_Subchunk1ID();
+	void get_Subchunk1Size();
+	void get_AudioFormat();
+	void get_NumChannels();
+	void get_SampleRate();
+	void get_ByteRate();
+	void get_BlockAlign();
+	void get_BitsPerSample();
+	void get_Subchunk2ID();
+	void get_Subchunk2Size();
+
+
+	virtual std::vector<int16_t> get_DataChunk();
 };
 #endif

@@ -3,7 +3,7 @@
 # -I (dash i) option tells the compiler where to find an external header(.h) file
 # g++ -I/Library/Frameworks/SDL.framework/Headers main.cpp SDLmain.m -framework SDL -framework Cocoa
 
-LIBS=include/Handler include/AUDFile
+LIBS=include/Handler include/AUDFile include/ACgraph
 INCLUDE_PATH=include/
 
 new: clean \
